@@ -18,13 +18,23 @@ function summonCaptainPlanet(planeteerCalls){
 
 
 function longPlaneteerCalls(words){
+  var i;
 	for (i = 0; i < words.length; i += 1){
    		if (words[i].length > 4){
 	 		return true;
 	 	}
 	 }
 	return false;
-  
+}
 
-function findTheCheese (foods) {
+
+function findTheCheese(foods) {
+
+  var i;
+  for (i = 0; i < foods.length; i += 1){
+  	if (foods[i] === 'cheddar'|| foods[i] === 'gouda'|| foods[i] === 'camembert'){
+    	return foods[i];
+	   }
+  }
+  return 'no cheese!';
 }
