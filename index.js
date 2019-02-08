@@ -18,14 +18,21 @@ function summonCaptainPlanet(planeteerCalls){
 
 
 function longPlaneteerCalls(words){
+<<<<<<< HEAD
   var i;
+=======
+>>>>>>> 369909160477655f19f94660467120f8a5983085
 	for (i = 0; i < words.length; i += 1){
    		if (words[i].length > 4){
 	 		return true;
 	 	}
 	 }
 	return false;
+<<<<<<< HEAD
 }
+=======
+  
+>>>>>>> 369909160477655f19f94660467120f8a5983085
 
 
 function findTheCheese(foods) {
